@@ -26,7 +26,7 @@ module.exports = function (source) {
     `--template=${path.resolve(__dirname, templateDir)}`,
   ]);
   if (result.status !== 0) {
-    logger.error(result.output.toString());
+    console.error(result.output.toString());
     cb(
       new Error(
         "Command `lime build html5` failed with error code: " + result.status
