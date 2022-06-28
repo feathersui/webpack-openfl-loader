@@ -34,13 +34,15 @@ jobs:
           haxelib install lime --quiet
           haxelib install openfl --quiet
           haxelib install genes --quiet
-      - working-directory: samples/basic
+      - name: Build samples/basic
+        working-directory: samples/basic
         run: |
           npm link openfl-loader
           npm install
           npm run build
-      - working-directory: samples/genes
-        run: |
-          npm link openfl-loader
-          npm install
-          npm run build
+      # - name: Build samples/genes
+      #   working-directory: samples/genes
+      #   run: |
+      #     npm link openfl-loader
+      #     npm install
+      #     npm run build
