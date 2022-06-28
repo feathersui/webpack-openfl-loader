@@ -2,4 +2,5 @@
 node_modules/
 samples/**/bin/
 samples/**/dist/
+samples/**/package-lock.json
 .DS_Store
