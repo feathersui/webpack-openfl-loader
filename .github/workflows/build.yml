@@ -26,3 +26,14 @@ jobs:
           name: openfl-loader
           path: openfl-loader-*.tgz
           if-no-files-found: error
+      - run: npm link
+      - working-directory: samples/basic
+        run: |
+          npm link openfl-loader
+          npm install
+          npm run build
+      - working-directory: samples/genes
+        run: |
+          npm link openfl-loader
+          npm install
+          npm run build
