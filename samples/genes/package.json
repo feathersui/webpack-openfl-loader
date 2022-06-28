@@ -1,7 +1,7 @@
 {
-  "name": "openfl-loader-basic-sample",
+  "name": "openfl-loader-genes-sample",
   "version": "1.0.0",
-  "description": "A basic sample to demonstrate openfl-loader",
+  "description": "Sample that demonstrates how to use Genes with openfl-loader",
   "repository": "https://github.com/feathersui/webpack-openfl-loader.git",
   "devDependencies": {
     "webpack-cli": "^4.10.0",
