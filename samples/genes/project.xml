@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<meta title="Webpack OpenFL Loader with Genes"/>
+	<meta package="com.feathersui.webpack.genes"/>
+	<meta version="1.0.0"/>
+	<meta company="Bowler Hat LLC"/>
+	<app main="Main"/>
+	<!--
+		the output file name is referenced when calling lime.embed() in
+		public/index.html
+	-->
+	<app file="WebpackGenesSample"/>
+
+	<window allow-high-dpi="true"/>
+	<window fps="60"/>
+	<window fps="0" if="html5"/>
+	
+	<source path="src"/>
+	
+	<haxelib name="openfl"/>
+	<!--
+		openfl-loader automatically detects when the "genes" Haxelib is
+		referenced in your OpenFL project.xml file.
+	-->
+	<haxelib name="genes"/>
+</project>

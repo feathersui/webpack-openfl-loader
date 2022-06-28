@@ -1,0 +1,24 @@
+{
+  "name": "openfl-loader",
+  "version": "1.0.0",
+  "description": "OpenFL project.xml loader for Webpack",
+  "license": "MIT",
+  "repository": "https://github.com/feathersui/webpack-openfl-loader.git",
+  "bugs": {
+    "url": "https://github.com/feathersui/webpack-openfl-loader/issues"
+  },
+  "author": "Josh Tynjala",
+  "keywords": [
+    "webpack",
+    "OpenFL"
+  ],
+  "main": "./openfl-loader.js",
+  "files": [
+    "templates",
+    "openfl-loader.js"
+  ],
+  "peerDependencies": {
+    "webpack": "^5.0.0"
+  },
+  "scripts": {}
+}
