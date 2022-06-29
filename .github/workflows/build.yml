@@ -16,7 +16,8 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-      - run: |
+      - name: Build npm package
+        run: |
           npm ci
           npm pack
         env:
@@ -30,7 +31,8 @@ jobs:
       - uses: krdlab/setup-haxe@v1
         with:
           haxe-version: 4.2.5
-      - run: |
+      - name: Install Haxelib dependencies
+        run: |
           haxelib install lime --quiet
           haxelib install openfl --quiet
           haxelib install genes --quiet
