@@ -6,7 +6,7 @@ A custom loader to build [OpenFL](https://openfl.org) (and [Feathers UI](https:/
 
 Create a new directory for your project.
 
-Create the necessary files for an OpenFL project, including _project.xml_ and _.hx_ source files inside the project's root directory. Then, follow the remaining steps to setup Webpack and openfl-loader.
+Create the necessary files for an OpenFL project, including _project.xml_ inside the project's root directory and your _.hx_ source files. Then, follow the remaining steps to setup Webpack and openfl-loader.
 
 In a terminal, run the following command in the root of your project to create a _package.json_ file:
 
