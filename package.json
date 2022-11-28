@@ -20,5 +20,8 @@
   "peerDependencies": {
     "webpack": "^5.0.0"
   },
+  "engines": {
+    "node": ">=14.18 <15.x || >=16.x"
+  },
   "scripts": {}
 }
