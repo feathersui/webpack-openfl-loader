@@ -18,10 +18,10 @@
     "openfl-loader.js"
   ],
   "peerDependencies": {
-    "webpack": "^5.0.0"
+    "webpack": ">=5.0.0"
   },
   "engines": {
-    "node": ">=14.18 <15.x || >=16.x"
+    "node": "^18.x || ^20.x || >=22.x"
   },
   "scripts": {}
 }
