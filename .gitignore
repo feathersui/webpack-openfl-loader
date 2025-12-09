@@ -4,3 +4,4 @@ samples/**/bin/
 samples/**/dist/
 samples/**/package-lock.json
 .DS_Store
+openfl-loader-*.tgz
